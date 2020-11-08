@@ -1,8 +1,8 @@
 /*--------------------------------------------------------------------------------------------------------------------
  *
- * Template   CleaThin - Clean and Minimal Site Template
+ * Template   ROLLW
  * Version    1.0
- * Author     Valery Timofeev
+ * Author     rollw
  *
  *  1. Imports
  *  2. Less [only]
@@ -1153,7 +1153,7 @@ label.error {
   height: 100%;
   opacity: .6;
   z-index: 0;
-  background: #000;
+  background:rgba(153, 118, 4, 0.664);
 }
 /*
  * OWL.Carousel fadeUp
