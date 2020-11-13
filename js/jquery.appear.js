@@ -8,6 +8,8 @@
  *
  * Version: 0.3.6
  */
+
+ /*RollW -- -- LINGU*/
 (function($) {
   var selectors = [];
 
