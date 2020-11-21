@@ -1,0 +1,57 @@
+/*Designed by RollW*/
+/*引用行 
+@import*/
+
+ html{
+    height: 100%;
+    min-height: 100%;
+    }
+  a{ text-decoration:none;}
+  a:hover{ text-decoration:none;}
+  a:link { text-decoration: none;color: violet;}
+  a:active { text-decoration:blink;}
+  a:visited { text-decoration: none;}
+  body {
+    height: 100%;
+    min-height: 100%;
+
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: 	#A65391	  ;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    }
+    h1{
+        font-size: 30px;
+    }
+  
+    .text{
+      font-size: 16px;
+    
+    }
+    .row{
+      text-align: center;
+
+    
+    }
+    .result{
+      font-family: fantasy;
+    }
+    a.menu-link { display: none; }
+
+@media screen and (max-width: 950px) {
+  a.menu-link {
+    float: right;
+    display: block;
+    font-size: 36px;
+    color: #fff;
+    padding-right: 30px;
+    padding-top: 15px;
+  }
+}
+footer{
+
+font-family: '华文中宋';
+text-align: center;
+}
