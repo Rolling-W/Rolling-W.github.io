@@ -16,17 +16,18 @@
 <body>
     <!--整点好康的-->
        <!--小工具暂未完善-->
+
     <h1>进制转换工具</h1><br><br>
     <section class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <form class="form">
                     <div class="form-group">
-                        <label for="number">数据源：</label>
+                        <label for="number">待转换数据：</label>
                         <input id="number" class="form-control" type="text" autofocus required placeholder="仅支持整数">            
                     </div>
                     <div class="form-group">
-                        <label for="radix">数据基数：</label>
+                        <label for="radix">数据进制：</label>
                         <select id="radix" class="form-control">
                             <option value="10" selected>十进制</option>
                             <option value="16">十六进制</option>
@@ -44,11 +45,18 @@
             <div id="result"></div>
         </div>       
     </section>
+    <p>
+        更新日志：<br><br><br><br><br><br><br><br><br><br><br>
+        
+    </p>
     <footer>
         进制转换工具<br>
-        版权所有©2020 ROLLW<br>
-        <a href="index.html" target="_blank">MAINPAGE</a>
-           
+        版权所有 Copyright©2020 ROLLW<br>
+        <br>
+       
+        <a href="index.html" target="_blank">MAINPAGE</a> <br>
+        <a href="blog.html" target="_blank">BLOG</a>
+       
     </footer>
     <script id="t:result" type="text/template">
     <div class="item">
@@ -68,5 +76,9 @@
   s.parentNode.insertBefore(hm, s);
 })();
     </script>
+    <SCRIPT>
+
+        alert("工具暂未完善，待后续更新。\n ")
+    </SCRIPT>
 </body>
 </html>
