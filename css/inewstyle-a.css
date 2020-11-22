@@ -1,6 +1,7 @@
 /*Designed by RollW*/
 /*引用行 
 @import*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @font-face {
   font-family: '70S';
   src: url('../fonts/HYQiHei-70S.eot');
@@ -104,8 +105,45 @@
     box-align: center;
   }
 
+
+   blockquote {
+    background-color: #ff7b0000;
+    /*border-left: 6px solid #b85607cc;
+    border-right: 6px solid #b85607cc;
+    border-bottom: 6px solid #b85607cc;
+    border-top: 6px solid #b85607cc;*/
+    padding: 1em 1.5em 1em 1.5em;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+  
+    margin-left: 250px;
+    margin-right: 250px;
+   }
+   blockquote:before {
+     color:#6e320fcc;
+     content: "\201C";
+     font-size: 5em;
+     position:absolute;
+     left:-15px;
+     top: 40px;
+     line-height: 0.1em;
+   }
+   blockquote:after {
+     color:#691b1bcc;
+     content: "\201D";
+     font-size: 5em;
+     position:absolute;
+     right:15px;
+     bottom: 0em;
+     line-height: 0.1em;
+   }
   .k1{
     font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .k2{
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
   }
