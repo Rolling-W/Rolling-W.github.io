@@ -6,11 +6,13 @@
     height: 100%;
     min-height: 100%;
     }
+    /*链接样式*/
   a{ text-decoration:none;}
   a:hover{ text-decoration:none;}
   a:link { text-decoration: none;color: violet;}
   a:active { text-decoration:blink;}
   a:visited { text-decoration: none;}
+    /*链接样式*/
   body {
     height: 100%;
     min-height: 100%;
@@ -50,6 +52,40 @@
     padding-top: 15px;
   }
 }
+  .form-group {
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    font-weight: bolder;
+
+    color: #A65391	;
+    margin: 20px auto;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    
+    display: -o-box;
+    -o-box-orient: horizontal;
+    -o-box-pack: center;
+    -o-box-align: center;
+    
+    display: -ms-box;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -ms-box-align: center;
+    
+    display: box;
+    box-orient: horizontal;
+    box-pack: center;
+    box-align: center;
+  }
 footer{
 
 font-family: '华文中宋';

@@ -228,7 +228,7 @@ a.menu-link { display: none; }
 .main-menu li .sub-menu {
     position: absolute;
     width: 160px;
-    background-color: #18233a;
+    ;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s;
