@@ -17,7 +17,7 @@ $(function () {
         buffInterval = null,
         tFlag = false,
         albums = ['Bloom of Youth'],
-        trackNames = ['清水淳一'],
+        trackNames = ['清水準一'],
         albumArtworks = ['_1'],
         trackUrl = ['images/1.mp3'],
         playPreviousTrackButton = $('#play-previous'),

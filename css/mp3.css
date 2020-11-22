@@ -190,8 +190,8 @@
 
 #album-art.active img.active {
     z-index: 1;
-    -webkit-animation: rotateAlbumArt 6s linear 0s infinite forwards;
-    animation: rotateAlbumArt 6s linear 0s infinite forwards;
+    -webkit-animation: rotateAlbumArt 8s linear 0s infinite forwards;
+    animation: rotateAlbumArt 8s linear 0s infinite forwards;
 }
 
 @-webkit-keyframes rotateAlbumArt {
