@@ -274,7 +274,7 @@
     width: 26px;
     height: 26px;
     padding: 25px;
-    background-color: rgb(223, 139, 71);
+    background-color:  #e9ae57;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -293,11 +293,11 @@
 }
 
 .button:hover {
-    background-color: #bd5a3c;
+    background-color: #e9ae57;
 }
 
 .button:hover i {
-    color: rgb(230, 184, 132);
+    color: rgb(255, 136, 0);
 }
 
 
