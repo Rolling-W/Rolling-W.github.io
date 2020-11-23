@@ -51,9 +51,9 @@ $(function () {
         buffInterval = null,
         tFlag = false,
         albums = ['Bloom of Youth','红玫瑰'],
-        trackNames = ['清水準一','陈奕迅'],
+        trackNames = ['清水淳一','陈奕迅'],
         albumArtworks = ['_1','_2'],
-        trackUrl = ['images/1.mp3','https://ws.stream.qqmusic.qq.com/C400003LnSNo1ecdc3.m4a?guid=1580957925&vkey=FE630313DC06A85DFD2373122523079486BE623AC09846417337B6519DE9644AB1E727B62FA761C94ED3996B007942DC33B48CE66D70027D&uin=3004&fromtag=66'],
+        trackUrl = ['https://music.163.com/song/media/outer/url?id=760058.mp3','https://ws.stream.qqmusic.qq.com/C400003LnSNo1ecdc3.m4a?guid=1580957925&vkey=FE630313DC06A85DFD2373122523079486BE623AC09846417337B6519DE9644AB1E727B62FA761C94ED3996B007942DC33B48CE66D70027D&uin=3004&fromtag=66'],
        
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
