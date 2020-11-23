@@ -1,3 +1,37 @@
+window.onload = function(){
+    //存放音乐列表，根据音乐文件路径，进行填写
+    var musicList = ["['images/1.mp3','images/2.mp3']"]
+    playMusic(musicList);
+}
+function playMusic(musicList){
+    var myAudio = new Audio();
+    //是否进行预加载
+    myAudio.preload = false;
+    //是否显示隐藏按钮
+    myAudio.controls = true;
+    myAudio.hidden = true;
+    //从音乐列表中，获取最后一个音乐（并删除）
+    var src = musicList.pop();
+    myAudio.src =src;
+    //将最后一个音乐添加到数组的开头，这样实现循环
+    musicList.unshift(src);
+    //绑定音乐结束事件，当音乐播放完成后，将会触发playEndedHandler方法
+    myAudio.addEventListener("ended",playEndedHandler,false);
+    //播放当前音乐
+    myAudio.play();
+    document.getElementById("music").appendChild(myAudio);
+    //将循环播放关闭，如果开启，将不能触发playEndedHandler方法，只能进行单曲循环
+    myAudio.loop = false;
+ 
+    function playEndedHandler(){
+        src = musicList.pop();
+        myAudio.src = src;
+        musicList.unshift(src);
+        myAudio.play();
+    }
+}
+
+
 $(function () {
     var playerTrack = $("#player-track"),
         bgArtwork = $('#bg-artwork'),
@@ -16,13 +50,15 @@ $(function () {
         seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0,
         buffInterval = null,
         tFlag = false,
-        albums = ['Bloom of Youth','十年'],
+        albums = ['Bloom of Youth','红玫瑰'],
         trackNames = ['清水準一','陈奕迅'],
         albumArtworks = ['_1','_2'],
-        trackUrl = ['images/1.mp3','images/2.mp3'],
+        trackUrl = ['images/1.mp3','https://ws.stream.qqmusic.qq.com/C400003LnSNo1ecdc3.m4a?guid=1580957925&vkey=FE630313DC06A85DFD2373122523079486BE623AC09846417337B6519DE9644AB1E727B62FA761C94ED3996B007942DC33B48CE66D70027D&uin=3004&fromtag=66'],
+       
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
         currIndex = -1;
+
 
     function playPause() {
         setTimeout(function () {
@@ -42,7 +78,16 @@ $(function () {
             }
         }, 300);
     }
+    function playNextTrackButton(){
+        if (audio.paused) {
+            playerTrack.addClass('active');
+            albumArt.addClass('active');
+            playMusic;
 
+            audio.play();}
+    
+        
+    }
 
     function showHover(event) {
         seekBarPos = sArea.offset();
