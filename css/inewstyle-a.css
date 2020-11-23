@@ -14,11 +14,11 @@
 }
 @font-face {
   font-family: '70S';
-  src: url('fonts\HYQiHei-75SBold.eot');
-  src: url('fonts\HYQiHei-75SBold.ttf') format('embedded-opentype'),
-       url('fonts\HYQiHei-75SBold.woff') format('woff'),
-       url('fonts\HYQiHei-75SBold.ttf') format('truetype'),
-       url('fonts\HYQiHei-75SBold.svg') format('svg');
+  src: url('../fonts/HYQiHei-75SBold.eot');
+  src: url('../fonts/HYQiHei-75SBold.ttf') format('embedded-opentype'),
+       url('../fonts/HYQiHei-75SBold.woff') format('woff'),
+       url('../fonts/HYQiHei-75SBold.ttf') format('truetype'),
+       url('../fonts/HYQiHei-75SBold.svg') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -33,15 +33,16 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'lang';
-  src: url('../fonts/MFLangQian_Noncommercial-Light.eot');
-  src: url('../fonts/MFLangQian_Noncommercial-Light.otf') format('embedded-opentype'),
-       url('../fonts/MFLangQian_Noncommercial-Light.woff') format('woff'),
-       url('../fonts/MFLangQian_Noncommercial-Light.otf') format('truetype'),
-       url('../fonts/MFLangQian_Noncommercial-Light.svg') format('svg');
+  font-family: 'xuanren';
+  src: url('../webfonts/MFXuanRen_Noncommercial-Regular.eot');
+  src: url('../webfonts/MFXuanRen_Noncommercial-Regular.otf') format('embedded-opentype'),
+       url('../webfonts/MFXuanRen_Noncommercial-Regular.woff') format('woff'),
+       url('../webfonts/MFXuanRen_Noncommercial-Regular.otf') format('truetype'),
+       url('../webfonts/MFXuanRen_Noncommercial-Regular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
   html{
     height: 100%;
     min-height: 100%;
@@ -56,7 +57,7 @@
   body {
     height: 100%;
     min-height: 100%;
-    font-family: 'Lemon','lang';
+    font-family: '70S';
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: 	#ffd900	  ;
@@ -165,11 +166,15 @@
   }
   .k2{
     font-size: 20px;
-    font-weight: bold;
+    font-family: 'Lemon','xuanren';
     text-align: center;
     
   }
-
+  .dowebok{
+    font-family: '70S';
+    font-weight: bold;
+  }
+  
   footer{
   text-align: center;
   font-family: '70S';
