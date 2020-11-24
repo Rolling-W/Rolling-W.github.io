@@ -170,9 +170,21 @@
     text-align: center;
     
   }
-  .dowebok{
+  .doke{
     font-family: '70S';
     font-weight: bold;
+  }
+  .playlist{
+    font-size: 15px;
+  }
+  li{
+    list-style-type:none
+  }
+  .textarea{
+    width:auto;
+    height:auto;
+    background:transparent;
+ 
   }
   
   footer{
