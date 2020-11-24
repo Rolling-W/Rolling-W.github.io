@@ -50,10 +50,17 @@ $(function () {
         seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0,
         buffInterval = null,
         tFlag = false,
+<<<<<<< HEAD
         albums = ['Bloom of Youth','红玫瑰','See You Again'],
         trackNames = ['清水淳一','陈奕迅','Wiz Khalifa / Charlie Puth'],
         albumArtworks = ['_1','_2','_3'],
         trackUrl = ['https://music.163.com/song/media/outer/url?id=760058.mp3','https://ws.stream.qqmusic.qq.com/C400003LnSNo1ecdc3.m4a?guid=1580957925&vkey=FE630313DC06A85DFD2373122523079486BE623AC09846417337B6519DE9644AB1E727B62FA761C94ED3996B007942DC33B48CE66D70027D&uin=3004&fromtag=66','https://apd-1d06c55b7af0300ee17f271eeaccfde4.v.smtcdns.com/mv.music.tc.qq.com/ABHcEtFiLO1ks3yxa0IG8ffj4QhL0LBkDvptbw_SXKTY/90F6245B39186E1A8DFC870AD821EB0ABE327073077341CBA6178DDDC73E39F59E3A7AD81B8F3CB80FA0CF9266377A85ZZqqmusic_default/qmmv_0a6butyoaqafmsaja4dqwcajaacfbulquic5ghe6jqcaybqfaqea.f9844.mp4?fname=qmmv_0a6butyoaqafmsaja4dqwcajaacfbulquic5ghe6jqcaybqfaqea.f9844.mp4'],
+=======
+        albums = ['Bloom of Youth','红玫瑰'],
+        trackNames = ['清水準一','陈奕迅'],
+        albumArtworks = ['_1','_2'],
+        trackUrl = ['images/1.mp3','https://ws.stream.qqmusic.qq.com/C400003LnSNo1ecdc3.m4a?guid=1580957925&vkey=FE630313DC06A85DFD2373122523079486BE623AC09846417337B6519DE9644AB1E727B62FA761C94ED3996B007942DC33B48CE66D70027D&uin=3004&fromtag=66'],
+>>>>>>> parent of 73cefa0... Update
        
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
