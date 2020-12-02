@@ -50,10 +50,10 @@ $(function () {
         seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0,
         buffInterval = null,
         tFlag = false,
-        albums = ['Bloom of Youth','红玫瑰','See You Again'],
-        trackNames = ['清水淳一','陈奕迅','Wiz Khalifa / Charlie Puth'],
+        albums = ['Bloom of Youth','红玫瑰','Refrain'],
+        trackNames = ['清水淳一','陈奕迅','阿南亮子'],
         albumArtworks = ['_1','_2','_3'],
-        trackUrl = ['https://music.163.com/song/media/outer/url?id=760058.mp3','https://music.163.com/song/media/outer/url?id=65533.mp3','http://mvdown.kuwo.cn/30b57cef5146e0dc2251e39c4ac5d3fd/5fbe5fbe/resource/m3/21/26/2881504378.mp4'],
+        trackUrl = ['https://music.163.com/song/media/outer/url?id=760058.mp3','https://music.163.com/song/media/outer/url?id=65533.mp3','https://music.163.com/song/media/outer/url?id=22712173.mp3'],
        
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
