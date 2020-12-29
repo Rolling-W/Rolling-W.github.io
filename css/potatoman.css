@@ -1,0 +1,15 @@
+a{ text-decoration:none;}
+a:hover{ text-decoration:none;}
+a:link { text-decoration: none;color: rgb(211, 128, 3);}
+a:active { text-decoration:blink;}
+a:visited { text-decoration: none;}
+body{
+    
+    color: 	#ffd900;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+
+    background-attachment:fixed；
+}
+h1{
+    text-align: center;
+}
