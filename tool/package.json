@@ -1,10 +1,10 @@
 {
-  "name": "new",
+  "name": "newtarot",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "homepage": "https://codesandbox.io/s/new",
-  "main": "src/index.js",
+  "main": "src/tarot.js",
   "dependencies": {
     "lodash-es": "4.17.11",
     "react": "16.8.6",
