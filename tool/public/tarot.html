@@ -12,7 +12,7 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="package.json" />
-    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="shortcut icon" href="../../images/favicon.ico" />
     <script type="text/javascript" src="src/tarot.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -23,14 +23,14 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="../manifest.json">
     <title>塔罗牌 - 抽卡</title>
   </head>
 
   
   <body>
     <noscript> You need to enable JavaScript to run this app. 你需要启用JavaScript来让程序运行。 </noscript>
-    
+    <script type="text/javascript" src="../src/tarot.js"></script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -42,9 +42,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script type="text/javascript" src="src/tarot.js"></script>
-    <script type="text/javascript" src="../tarot.js"></script>
-    <script type="text/javascript" src="../tool/src/tarot.js"></script>
+
+    
     <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/vendors~app~codemirror-editor~monaco-editor~sandbox.e68dd7bee.chunk.js"></script>
     <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/common-sandbox.71780db40.chunk.js"></script>
     <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/vendors~app~sandbox.3a7b80a48.chunk.js"></script>
