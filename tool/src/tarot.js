@@ -2,7 +2,7 @@ import { render } from 'react-dom'
 import React, { useState } from 'react'
 import { useSprings, animated, interpolate } from 'react-spring'
 import { useGesture } from 'react-use-gesture'
-import './style-tarot.css'
+import './style.css'
 
 const cards = [
   'https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg',
