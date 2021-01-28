@@ -1730,10 +1730,10 @@ window.__require = function e(t, n, o) {
         var o = {
             goToCover: function(e, t, n, o, c) {
                 var a = e;
-                a = null == a || void 0 == a || e, console.log("LoadBoolBeforeLoadS", a), this.needShow = !1, a && a ? (this.needShow = !0, showMyAds()) : this.needShow = !1, this.needShow ? (void 0 == preloader && this.startGoToGame(n, o, c), resCompleteFlag = !0, adCompleteFlag && resCompleteFlag && this.startGoToGame(n, o, c)) : this.startGoToGame(n, o, c)
+                a = null == a || void 0 == a || e, console.log("LoadBoolBeforeLoadS", a), this.needShow = !1, a && a ? (this.needShow = !0, showMyAds()) : this.needShow = !1, this.needShow ? (void 0 == preloader && this.startGoToGame(n, o, c), resCompleteFlag = !0, resCompleteFlag && this.startGoToGame(n, o, c)) : this.startGoToGame(n, o, c)
             },
             startGoToGame: function(e, t, n) {
-                console.log("goToScene"), noAdGoToScene()
+                
             }
         };
         t.exports = o, cc._RF.pop()
@@ -2019,7 +2019,7 @@ window.__require = function e(t, n, o) {
                     }
                     a.launchScene = e, a.Bros = t, a.caS = n, this.curType = 1, this.getHttpGameId(), this.gamePV_load(), console.log("thisg", this.gameHttpId), o.httpInitUrl(this.gameHttpId);
                     var c = this.initLanguage();
-                    this.gameNameText = c.game_name, this.gameInfoText = c.game_info, this.txtStartText = c.txtStart, this.txtMoreText = c.txtMore, this.txtAgainText = c.txtAgain, this.gameEndLText = c.gameEndL, this.gameEndL1Text = c.gameEndL1, this.bgLayRgb = c.bgRgb, this.gameEndName1 = c.gameT2, this.gameEndName2 = c.gameT3, this.gameEndUrl1 = c.gameUrl1, this.gameEndUrl2 = c.gameUrl2, this.langugeType = this.curType, i.goToCover(this.adShowBefore, this.adShowAfter, e, t, n)
+                    this.gameNameText = c.game_name, this.gameInfoText = c.game_info, this.txtStartText = c.txtStart, this.txtMoreText = c.txtMore, this.txtAgainText = c.txtAgain, this.gameEndLText = c.gameEndL, this.gameEndL1Text = c.gameEndL1, this.bgLayRgb = c.bgRgb, this.gameEndName1 = c.gameT2, this.gameEndName2 = c.gameT3, this.gameEndUrl1 = c.gameUrl1, this.gameEndUrl2 = c.gameUrl2, this.langugeType = this.curType
                 },
                 getHttpGameId: function() {
                     var e = window.location.href,
