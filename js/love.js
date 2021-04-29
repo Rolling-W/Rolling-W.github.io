@@ -1,3 +1,4 @@
+//designed by Rolling-Wind
 function IsPC() {
     var userAgentInfo = navigator.userAgent;
     var Agents = ["Android", "iPhone",

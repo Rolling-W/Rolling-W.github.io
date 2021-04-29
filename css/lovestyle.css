@@ -1,3 +1,5 @@
+/* designed by Rolling-Wind */
+
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
 
@@ -78,8 +80,8 @@ body{
 }
 #love{
     display: flex;
-    align-items: center; /*定义body的元素垂直居中*/
-    justify-content: center; /*定义body的里的元素水平居中*/
+    align-items: center; /*定义元素垂直居中*/
+    justify-content: center; /*定义元素水平居中*/
 
 
     box-shadow: 0px 0px 150px #ff859471;
