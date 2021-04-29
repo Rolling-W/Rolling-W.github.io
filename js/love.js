@@ -8,7 +8,7 @@ function detectBrowser()
 
     else
     {
-        alert("请使用谷歌浏览器以获得最佳体验。\n网页将随后关闭！");
+        alert("请在电脑端使用谷歌浏览器以获得最佳体验。\n网页将随后关闭！");
         close();
     }
 }
