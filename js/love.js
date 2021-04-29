@@ -1,5 +1,22 @@
+function IsPC() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+       "SymbianOS", "Windows Phone",
+       "iPad", "iPod"];
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+       if (userAgentInfo.indexOf(Agents[v]) > 0) {
+          flag = false;
+          break;
+       }
+    }
+    return flag;
+ }
+
+
 function detectBrowser()
 {
+    var isMobile = IsPC();
     var isChrome =  navigator.userAgent.indexOf('Chrome') > -1
     if (isChrome)
     {
@@ -8,6 +25,10 @@ function detectBrowser()
 
     else
     {
+        alert("请使用最新版本的谷歌浏览器以获得最佳体验。\n网页将随后关闭！");
+        close();
+    }
+    if(isMobile == false){
         alert("请在电脑端使用最新版本的谷歌浏览器以获得最佳体验。\n网页将随后关闭！");
         close();
     }
