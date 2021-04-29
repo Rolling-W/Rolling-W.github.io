@@ -1,0 +1,130 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+
+@font-face {
+    font-family: 'Lemon';
+    src: url('../fonts/LEMONMILK-Regular.eot');
+    src: url('../fonts/LEMONMILK-Regular.otf') format('embedded-opentype'),
+         url('../fonts/LEMONMILK-Regular.woff') format('woff'),
+         url('../fonts/LEMONMILK-Regular.otf') format('truetype'),
+         url('../fonts/LEMONMILK-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Lemon';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(125deg,#c44e5e,#c56307,#db7597,#e24534,#c766aa);
+    background-size: 4000%;
+    animation: bganimation 40s infinite;
+    
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    /* font-family: "montserrat"; */
+    
+}
+
+body{
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+
+    user-select:none;
+}
+#father_t{
+   background-color: transparent;
+    
+    position:relative;
+}
+
+@keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+}
+
+#love{
+    background-color: rgba(223, 223, 223, 0.2);
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    /* margin:0 auto; */
+    
+    text-align: center;
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto; 
+    transition: all 1.5s cubic-bezier(.87, .11, 1, .81);
+    /* background-color: rgba(252, 166, 166, 0.295); */
+}
+#love{
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+
+
+    box-shadow: 0px 0px 150px #ff859471;
+}
+
+#inside_love{
+    /* transition: all 1s cubic-bezier(.87, .11, 1, .81); */
+    cursor: pointer;
+    /* top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;  */
+
+    
+}
+
+#inside_love_h1{
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 60px;
+    color: white;
+    /* color: #e7b05081; */
+    transition: all 2s cubic-bezier(.76, -0.6, .68, 1.56);
+}
+
+#inside_love_h2{
+    color: palevioletred;
+    font-size: 60px;
+}
+#inside_p{
+    color: rgba(255, 255, 255, 0.205);
+    font-size: 15px;
+    transition: all 1s cubic-bezier(.87, .11, 1, .81);
+}
+
+/* #inside_love :hover{
+    background-color: rgba(255, 207, 207, 0.2); 
+    border-radius: 100%;
+    cursor: pointer;
+    
+    width: 100px;
+    transform: scale(2);
+    box-shadow: 0px 0px 100px #ff859471;
+    transition: all 1s ease-out;
+} */
+
