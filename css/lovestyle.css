@@ -23,7 +23,7 @@ html, body {
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(125deg,#c44e5e,#c56307,#db7597,#e24534,#c766aa);
+    background-image: linear-gradient(125deg,#a5414e,#af5807,#a05870,#973227,#a5673d);
     background-size: 4000%;
     animation: bganimation 40s infinite;
     
@@ -42,8 +42,7 @@ body{
     user-select:none;
 }
 #father_t{
-   background-color: transparent;
-    
+    background-color: transparent;
     position:relative;
 }
 
@@ -75,7 +74,7 @@ body{
     bottom: 0px;
     margin: auto; 
     transition: all 1.5s cubic-bezier(.87, .11, 1, .81);
-    /* background-color: rgba(252, 166, 166, 0.295); */
+    /* background-color: rgba(240, 97, 72, 0.616);  */
 }
 #love{
     display: flex;
@@ -89,6 +88,7 @@ body{
 #inside_love{
     /* transition: all 1s cubic-bezier(.87, .11, 1, .81); */
     cursor: pointer;
+    text-shadow: 0px 0px 80px #f19e9a91;
     /* top: 0px;
     left: 0px;
     right: 0px;
@@ -105,6 +105,7 @@ body{
     color: white;
     /* color: #e7b05081; */
     transition: all 2s cubic-bezier(.76, -0.6, .68, 1.56);
+    
 }
 
 #inside_love_h2{

@@ -8,7 +8,7 @@ function detectBrowser()
 
     else
     {
-        alert("请在电脑端使用谷歌浏览器以获得最佳体验。\n网页将随后关闭！");
+        alert("请在电脑端使用最新版本的谷歌浏览器以获得最佳体验。\n网页将随后关闭！");
         close();
     }
 }
@@ -28,7 +28,7 @@ window.onload = function(){
             document.getElementById("inside_love_h1").innerHTML = "❤";
             // document.getElementById("inside_love_h2").innerHTML = "占位符";
             document.getElementById("inside_love_h1").style.fontSize = '350px';
-            document.getElementById("inside_love_h1").style.color='#e7b05081';
+            document.getElementById("inside_love_h1").style.color='rgba(240, 97, 72, 0.55 )';
             document.getElementById("inside_love_h1").style.width = 'auto';
             document.getElementById("love").style.borderRadius = '0px';
             document.getElementById("love").style.height = '100%';
