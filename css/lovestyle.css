@@ -85,13 +85,13 @@ body{
     justify-content: center; /*定义元素水平居中*/
 
 
-    box-shadow: 0px 0px 150px #dad5ff71;
+    box-shadow: 0px 0px 150px #fde8e86c;
 }
 
 #inside_love{
     /* transition: all 1s cubic-bezier(.87, .11, 1, .81); */
     cursor: pointer;
-    text-shadow: 0px 0px 80px #ddd8ff91;
+    
     /* top: 0px;
     left: 0px;
     right: 0px;
@@ -107,6 +107,7 @@ body{
     font-size: 60px;
     color: white;
     /* color: #e7b05081; */
+    text-shadow: 0px 0px 80px #fde8e86c;
     transition: all 2s cubic-bezier(.76, -0.6, .68, 1.56);
     
 }
@@ -155,8 +156,8 @@ body{
     #love{
         background-color: rgba(223, 223, 223, 0.2);
         border-radius: 100%;
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
         top: 50%;
         /* margin:0 auto; */
         
@@ -176,13 +177,13 @@ body{
         justify-content: center; /*定义元素水平居中*/
 
 
-        box-shadow: 0px 0px 90px #ff859471;
+        box-shadow: 0px 0px 90px #fde8e86c;
     }
 
     #inside_love{
         /* transition: all 1s cubic-bezier(.87, .11, 1, .81); */
         cursor: pointer;
-        text-shadow: 0px 0px 50px #f19e9a91;
+        
         /* top: 0px;
         left: 0px;
         right: 0px;
@@ -197,6 +198,7 @@ body{
         line-height: 80px;
         font-size: 60px;
         color: white;
+        text-shadow: 0px 0px 40px #fde8e86c;
         /* color: #e7b05081; */
         transition: all 2s cubic-bezier(.76, -0.6, .68, 1.56);
         
